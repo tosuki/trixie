@@ -1,0 +1,11 @@
+--stdio
+--clock
+
+local fn add(a uint8, b uint8) uint8 {
+    return a + b;
+}
+
+system fn main() {
+    print(add(2, 5));
+    print(now()); //clock library
+}
